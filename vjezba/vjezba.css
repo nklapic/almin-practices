@@ -1,0 +1,44 @@
+:root {
+    --primary: #0d1b2a; /* global scope */
+    --secondary: #108981;
+}
+
+body {
+    font-family: 'Poppins', 'Roboto', Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary);
+    color: white;
+    height: 25px;
+    padding: 20px 50px;
+}
+
+.header-items {
+    display: flex;
+    gap: 20px;
+}
+
+.header-item-active {
+    border-bottom: 2px solid var(--secondary);
+    font-weight: bold;
+}
+
+.fa-leaf {
+    color: var(--secondary);
+    margin-top: 2px;
+}
+
+.header-inline-wrapper {
+    max-width: 1220px;
+    min-width: 750px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*.header-item {*/
+/*    margin-right: 20px;*/
+/*}*/
