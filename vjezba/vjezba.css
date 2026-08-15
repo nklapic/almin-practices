@@ -32,13 +32,6 @@ header {
     margin-top: 2px;
 }
 
-.header-inline-wrapper {
-    max-width: 1220px;
-    min-width: 750px;
-    display: flex;
-    justify-content: space-around;
-}
-
 /*.header-item {*/
 /*    margin-right: 20px;*/
 /*}*/
