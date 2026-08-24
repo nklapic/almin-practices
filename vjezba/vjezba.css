@@ -1,6 +1,9 @@
 :root {
     --primary: #0d1b2a; /* global scope */
     --secondary: #108981;
+    --light-background: #f1f8f9;
+    --section-background: #ecfdf5;
+    --light-button: #81dea0;
 }
 
 body {
@@ -32,19 +35,24 @@ header {
     margin-top: 2px;
 }
 
-.opis1 {
- margin-left: 125px;
+.description {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 80px;
+    background-color: var(--light-background);
 }
 
-.pozdrav {
-  background-color: rgba(60, 227, 135, 0.187); 
-  display: inline-block;
-  border-radius: 6px;
-  color: rgba(34, 184, 34, 0.941);
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-  font-size: 12px;  
-  justify-content: center; 
-  padding: 7px;
+.left-content {
+    margin-left: 125px;
+}
+
+.welcome {
+    background-color: var(--light-button);
+    display: inline-block;
+    border-radius: 10px;
+    color: var(--secondary);
+    font-size: 12px;
+    padding: 3px 10px;
 }
 
 .button1 {
@@ -62,7 +70,6 @@ header {
   background-color: white;
   font-family: 'Poppins', 'Roboto', Arial, sans-serif;
   padding: 10px;
-  border-style: green; 
   border-radius: 4px;
   margin-left: 20px;
   width: 120px;
@@ -73,9 +80,13 @@ header {
   background-color:rgb(254, 255, 255)
 }
 
-.naslov {
-  font-family: 'Poppins', 'Roboto', Arial, sans-serif;
-  font-size: 20px;
+.title {
+    font-family: 'Poppins', 'Roboto', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.title h1 {
+    margin: 0
 }
 
 .podnaslovi {
