@@ -4,6 +4,8 @@
     --light-background: #f1f8f9;
     --section-background: #ecfdf5;
     --light-button: #81dea0;
+    --paragraph: #647488;
+
 }
 
 body {
@@ -39,7 +41,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 30px 80px;
-    background-color: var(--light-background);
+    background-color: var(--section-background);
 }
 
 .left-content {
@@ -74,12 +76,6 @@ header {
   margin-left: 20px;
   width: 120px;
 }
-
-.dio2 {
-  text-align: center;
-  background-color:rgb(254, 255, 255)
-}
-
 .title {
     font-family: 'Poppins', 'Roboto', Arial, sans-serif;
     font-size: 20px;
@@ -89,20 +85,100 @@ header {
     margin: 0
 }
 
-.podnaslovi {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 80px;
-
+.service {
+    border-bottom: 2px solid black;
+    display: block;
+    width: 10px;
+    margin-left: 560px;
+    white-space: nowrap;
+    margin-top: 0px;
 }
 
-.responsive {
-  border: 2px solid #d2d9e2 ;
-  padding: 15px;
-  border-radius: 10px;
+.all {
+    display: flex;
+    gap: 120px;
+    padding: 0px 50px 50px;
+    margin-left: 150px;
 }
 
-.naslov2 {
-  margin-bottom: 0px;
-  margin-top: 0px;
+.text1 {
+   font-family: 'Poppins', 'Roboto', Arial, sans-serif;
+   margin-top: 10px;
+   border: 1px solid #e2e8f0;
+   padding: 30px;
+   text-align: center;
+   border-radius: 8px;
+   
+   
+}
+
+.fa-laptop {
+   font-size: 30px;
+   background-color:var(--section-background);
+   padding: 15px;
+   border-radius: 30px;
+   color: var(--secondary);
+}
+
+.fa-table-columns {
+    color: var(--secondary);
+    font-size: 30px;
+    background-color:var(--section-background);
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.fa-sliders {
+    color: var(--secondary);
+    font-size: 30px;
+    background-color:var(--section-background);
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.part2 {
+    background-color: var(--light-background);
+}
+
+.lefttext3 {
+    margin-left: 200px;
+    font-family: 'Poppins', 'Roboto', Arial, sans-serif;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.mittle {
+    background-color: var(--section-background);
+    justify-content: space-between;
+}
+.readmore {
+    background-color: rgb(70, 174, 110);
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+    font-family: 'Poppins', 'Roboto', Arial, sans-serif;
+    font-size: 12px;
+}
+
+.about {
+    border-bottom: 3px solid rgb(70, 174, 110);
+    white-space: nowrap;
+    width: 45px;
+}
+
+.nexoratext {
+    margin-left: 200px;
+    font-family: 'Poppins', 'Roboto', Arial, sans-serif;
+    color: var(--paragraph)
+}
+.h4 {
+    color: rgb(70, 174, 110);
+    margin: 0px;
+    margin-left: 200px;
+}
+.part4 {
+    background-color: var(--primary);
+    margin-top: 0px;
 }
