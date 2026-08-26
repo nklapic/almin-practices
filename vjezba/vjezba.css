@@ -44,8 +44,8 @@ header {
     background-color: var(--section-background);
 }
 
-.left-content {
-    /*margin-left: 125px;*/
+.description .left-content {
+    margin-left: 125px;
 }
 
 .welcome {
@@ -64,18 +64,18 @@ button {
 }
 
 .button_getting_started {
-  color: white; 
-  background-color: var(--light-button);
-  border-style: none;
-  width: 120px;
+    color: white;
+    background-color: var(--light-button);
+    border-style: none;
+    width: 120px;
 }
 
 .button_learn_more {
-  color: green; 
-  background-color: white;
-  border: 2px solid var(--light-button);
-  margin-left: 20px;
-  width: 120px;
+    color: green;
+    background-color: white;
+    border: 2px solid var(--light-button);
+    margin-left: 20px;
+    width: 120px;
 }
 
 .title {
@@ -112,36 +112,21 @@ button {
 }
 
 .card {
-   font-family: 'Poppins', 'Roboto', Arial, sans-serif;
-   margin-top: 10px;
-   border: 1px solid #e2e8f0;
-   padding: 30px;
-   text-align: center;
-   border-radius: 8px;
+    font-family: 'Poppins', 'Roboto', Arial, sans-serif;
+    margin-top: 10px;
+    border: 1px solid #e2e8f0;
+    padding: 30px;
+    text-align: center;
+    border-radius: 8px;
+    width: 200px;
 }
 
-.fa-laptop {
-   font-size: 30px;
-   background-color:var(--section-background);
-   padding: 15px;
-   border-radius: 30px;
-   color: var(--secondary);
-}
-
-.fa-table-columns {
-    color: var(--secondary);
+.fa-solid {
     font-size: 30px;
-    background-color:var(--section-background);
-    padding: 15px;
-    border-radius: 30px;
-}
-
-.fa-sliders {
+    background-color: var(--section-background);
     color: var(--secondary);
-    font-size: 30px;
-    background-color:var(--section-background);
-    padding: 15px;
     border-radius: 30px;
+    padding: 15px;
 }
 
 .part2 {
@@ -149,8 +134,7 @@ button {
     background-color: var(--light-background);
 }
 
-.lefttext3 {
-    margin-left: 200px;
+.aboutus .left-content {
     font-family: 'Poppins', 'Roboto', Arial, sans-serif;
     display: inline-block;
     margin-bottom: 30px;
@@ -160,6 +144,7 @@ button {
     background-color: var(--section-background);
     justify-content: space-between;
 }
+
 .readmore {
     background-color: rgb(70, 174, 110);
     border: none;
@@ -182,11 +167,13 @@ button {
     font-family: 'Poppins', 'Roboto', Arial, sans-serif;
     color: var(--paragraph)
 }
+
 .h4 {
     color: rgb(70, 174, 110);
     margin: 0px;
     margin-left: 200px;
 }
+
 .part4 {
     background-color: var(--primary);
     margin-top: 0px;
