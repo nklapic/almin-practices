@@ -57,25 +57,27 @@ header {
     padding: 3px 10px;
 }
 
-.button1 {
+button {
+    padding: 10px;
+    border-radius: 4px;
+    font-family: 'Poppins', 'Roboto', Arial, sans-serif;
+}
+
+.button_getting_started {
   color: white; 
-  background-color: rgb(70, 174, 110);
-  font-family: 'Poppins', 'Roboto', Arial, sans-serif;
-  padding: 10px; 
-  border-style: none; 
-  border-radius: 4px;
+  background-color: var(--light-button);
+  border-style: none;
   width: 120px;
 }
 
-.button2 {
+.button_learn_more {
   color: green; 
   background-color: white;
-  font-family: 'Poppins', 'Roboto', Arial, sans-serif;
-  padding: 10px;
-  border-radius: 4px;
+  border: 2px solid var(--light-button);
   margin-left: 20px;
   width: 120px;
 }
+
 .title {
     font-family: 'Poppins', 'Roboto', Arial, sans-serif;
     font-size: 20px;
