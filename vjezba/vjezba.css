@@ -45,7 +45,7 @@ header {
 }
 
 .left-content {
-    margin-left: 125px;
+    /*margin-left: 125px;*/
 }
 
 .welcome {
@@ -88,30 +88,36 @@ button {
 }
 
 .service {
-    border-bottom: 2px solid black;
-    display: block;
-    width: 10px;
-    margin-left: 560px;
-    white-space: nowrap;
-    margin-top: 0px;
-}
-
-.all {
     display: flex;
-    gap: 120px;
-    padding: 0px 50px 50px;
-    margin-left: 150px;
+    align-items: center;
+    flex-direction: column;
 }
 
-.text1 {
+.service h2 {
+    display: block;
+    /*TODO: what is auto? why this works? why is width important?*/
+    margin: 0 auto;
+}
+
+.arrow {
+    margin-top: 10px;
+    width: 30px;
+    border-top: 2px solid var(--secondary);
+}
+
+.card-items {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
    font-family: 'Poppins', 'Roboto', Arial, sans-serif;
    margin-top: 10px;
    border: 1px solid #e2e8f0;
    padding: 30px;
    text-align: center;
    border-radius: 8px;
-   
-   
 }
 
 .fa-laptop {
@@ -139,6 +145,7 @@ button {
 }
 
 .part2 {
+    padding: 30px 80px;
     background-color: var(--light-background);
 }
 
