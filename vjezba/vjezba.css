@@ -8,6 +8,17 @@
 
 }
 
+.main-content-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.main-content {
+    width: 950px;
+    display: flex;
+    justify-content: space-between;
+}
+
 body {
     font-family: 'Poppins', 'Roboto', Arial, sans-serif;
     margin: 0;
@@ -15,7 +26,6 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
     background-color: var(--primary);
     color: white;
     height: 25px;
@@ -38,14 +48,8 @@ header {
 }
 
 .description {
-    display: flex;
-    justify-content: space-between;
     padding: 30px 80px;
     background-color: var(--section-background);
-}
-
-.description .left-content {
-    margin-left: 125px;
 }
 
 .welcome {
