@@ -185,6 +185,8 @@ button {
     width: 40px;
     font-size: 20px;
 }
-.fa-regular {
-   
+
+.contact-us i {
+    margin-right: 10px;
+    width: 20px;
 }
