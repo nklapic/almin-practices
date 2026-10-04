@@ -10,6 +10,11 @@ body {
     width: 100%;
 }
 
+.content {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
 .header {
     display: flex;
     background-color: black;
@@ -107,39 +112,36 @@ body {
     gap: 7px;
 }
 
-.description {
-  font-family: 'Inter', sans-serif;
-  margin-left: 210px;
-  margin-top: 20px;
-}
-.production {
-  font-family: 'Inter', sans-serif;
+.count-and-filters {
   display: flex;
   align-items: center;
+    justify-content: space-between;
   font-size: 13px;
   color: #687260;
 }
+
+.filters {
+    display: flex;
+    align-items: center;
+}
+
 .breadcrumb {
   color: #687260;
 }
-.showing {
-  margin-left: 210px;
-}
-.sortby {
-  margin-left: 370px;
-  color: black;
-}
+
 .holder {
   width: 215px;
   align-items: center;
   display: flex;
   margin-left: 10px;
 }
+
 .second {
   display: flex;
   right: 20px;
   align-items: center;
 }
+
 .holderinput {
   height: 35px;
   width: 180px;
