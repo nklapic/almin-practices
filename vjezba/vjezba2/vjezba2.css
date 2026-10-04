@@ -1,6 +1,13 @@
+:root {
+  --background color: #0F1115;
+  --primary color: blue;
+  --secondary color
+}
+
 body {
     margin: 0;
     font-family: 'Inter', sans-serif;
+    width: 100%;
 }
 
 .header {
@@ -26,7 +33,7 @@ body {
 
 .pc {
     color: white;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .verse {
@@ -98,4 +105,48 @@ body {
     margin-left: 210px;
     font-family: 'Poppins', 'Roboto', Arial, sans-serif;
     gap: 7px;
+}
+
+.description {
+  font-family: 'Inter', sans-serif;
+  margin-left: 210px;
+  margin-top: 20px;
+}
+.production {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  color: #687260;
+}
+.breadcrumb {
+  color: #687260;
+}
+.showing {
+  margin-left: 210px;
+}
+.sortby {
+  margin-left: 370px;
+  color: black;
+}
+.holder {
+  width: 215px;
+  align-items: center;
+  display: flex;
+  margin-left: 10px;
+}
+.second {
+  display: flex;
+  right: 20px;
+  align-items: center;
+}
+.holderinput {
+  height: 35px;
+  width: 180px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: 1px solid #687260;
+  outline: none;
+  box-shadow: none;
+  display: flex;
 }
