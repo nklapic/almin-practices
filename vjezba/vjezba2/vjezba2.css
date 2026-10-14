@@ -1,13 +1,8 @@
-:root {
-  --background color: #0F1115;
-  --primary color: blue;
-  --secondary color
-}
-
 body {
     margin: 0;
     font-family: 'Inter', sans-serif;
     width: 100%;
+    justify-content: space-between;
 }
 
 .content {
@@ -108,14 +103,14 @@ body {
     display: flex;
     font-size: 13px;
     margin-left: 210px;
-    font-family: 'Poppins', 'Roboto', Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
     gap: 7px;
 }
 
 .count-and-filters {
   display: flex;
   align-items: center;
-    justify-content: space-between;
+  justify-content: space-between;
   font-size: 13px;
   color: #687260;
 }
@@ -152,3 +147,187 @@ body {
   box-shadow: none;
   display: flex;
 }
+.categories1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    display: block;
+    border: 1px solid #cbcbc7;
+    border-radius: 5px;
+    width: 300px;
+    height: 800px;
+    margin-top: 20px;
+    padding: 10px;
+}
+.categories-input {
+    display: flex;
+    gap: 10px 10px;
+}
+.numbers {
+   margin-left: auto;
+   padding-right: 15px;
+}
+.show-more {
+   display: flex;
+   color: #2563e8;
+   top: 30px;
+   border-bottom: 1px solid rgba(0, 0, 0, 0.13);
+   width: 95%;
+   margin-top: 5px;
+   padding-bottom: 10px;
+   gap: 10px 10px;
+   margin-bottom: 5px;
+}
+.title1 {
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0;
+    display: flex;
+    padding: 10px 0px;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+.form-label {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+.form-range-input {
+    width: 95%;
+}
+.part2 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.13);
+    padding-bottom: 10px;
+}
+.brand-item {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    align-items: center;
+ }
+.all {
+    display: flex;
+    gap: 20px;
+ }
+
+
+
+.column2 {
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    max-width: 850px;
+    max-height: 160px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.photo1 {
+    width: 150px;
+    height: 140px;
+    margin: 0;
+ }
+ .column2-part1 {
+    display: inline-block;
+    margin-top: 20px;
+ }
+ .ryzen {
+    font-weight: bold;
+    font-size: 15px;
+ }
+.descript {
+    font-size: 12px;
+    color: #2d2d2c;
+    font-family: 'Inter', sans-serif;
+}
+.ryzen-infos {
+    display: flex;
+    font-size: 10px;
+    gap: 20px;
+    color: #2d2d2c;
+    font-family: 'Inter', sans-serif;
+    margin-top: 10px;
+    align-items: center;
+}
+.cores {
+    background-color: #cbcbc73a;
+    text-align: center;
+    border-radius: 3px;
+    padding: 4px;
+}
+.threads {
+    background-color: #cbcbc73a;
+    text-align: center;
+    border-radius: 3px;
+    padding: 4px;
+}
+.GHz4 {
+    background-color: #cbcbc73a;
+    text-align: center;
+    border-radius: 3px;
+    padding: 4px;
+}
+.GHz5 {
+    background-color: #cbcbc73a;
+    text-align: center;
+    border-radius: 3px;
+    padding: 4px;
+}
+.TDP {
+    background-color: #cbcbc73a;
+    text-align: center;
+    border-radius: 3px;
+    padding: 4px;
+}
+.star {
+    font-size: 12px;
+    margin-top: 10px;
+}
+.stock {
+    font-size: 10px;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.bi-dot {
+    font-size: 25px;
+    color: #22c55e;
+    flex-shrink: 0;
+}
+.details {
+    display: flex;
+}
+.bag {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+}
+.heart {
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.cartshop {
+    padding: 0px 20px;
+}
+.compare {
+    display: flex;
+    padding: 10px 20px;
+    font-size: 9px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+.bi-square {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 5px 0px;
+}
+
