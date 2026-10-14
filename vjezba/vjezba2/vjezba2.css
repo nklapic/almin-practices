@@ -6,7 +6,7 @@ body {
 }
 
 .content {
-    max-width: 1320px;
+    max-width: 950px;
     margin: 0 auto;
 }
 
@@ -216,8 +216,8 @@ body {
 .column2 {
     display: flex;
     border: 1px solid rgba(0, 0, 0, 0.13);
-    max-width: 850px;
     max-height: 160px;
+    width: 100%;
     margin-top: 20px;
     border-radius: 5px;
     box-sizing: border-box;
@@ -251,36 +251,13 @@ body {
     margin-top: 10px;
     align-items: center;
 }
-.cores {
+.label-button {
     background-color: #cbcbc73a;
     text-align: center;
     border-radius: 3px;
     padding: 4px;
 }
-.threads {
-    background-color: #cbcbc73a;
-    text-align: center;
-    border-radius: 3px;
-    padding: 4px;
-}
-.GHz4 {
-    background-color: #cbcbc73a;
-    text-align: center;
-    border-radius: 3px;
-    padding: 4px;
-}
-.GHz5 {
-    background-color: #cbcbc73a;
-    text-align: center;
-    border-radius: 3px;
-    padding: 4px;
-}
-.TDP {
-    background-color: #cbcbc73a;
-    text-align: center;
-    border-radius: 3px;
-    padding: 4px;
-}
+
 .star {
     font-size: 12px;
     margin-top: 10px;
@@ -304,26 +281,24 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 100px;
+    margin-left: auto;
+    padding: 0 20px;
+    gap: 10px;
 }
 .heart {
     display: flex;
     gap: 40px;
-    padding: 20px;
     font-family: 'Inter', sans-serif;
     font-weight: bold;
     text-align: center;
 }
-.cartshop {
-    padding: 0px 20px;
-}
+
 .compare {
+    font-size: 12px;
+    margin-top: 10px;
     display: flex;
-    padding: 10px 20px;
-    font-size: 9px;
-    font-family: 'Inter', sans-serif;
-    text-align: center;
 }
+
 .bi-square {
     display: flex;
     gap: 20px;
