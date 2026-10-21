@@ -6,7 +6,7 @@ body {
 }
 
 .content {
-    max-width: 950px;
+    max-width: 1050px;
     margin: 0 auto;
 }
 
@@ -154,7 +154,7 @@ body {
     border: 1px solid #cbcbc7;
     border-radius: 5px;
     width: 300px;
-    height: 800px;
+    height: 900px;
     margin-top: 20px;
     padding: 10px;
 }
@@ -206,6 +206,10 @@ body {
     margin-left: auto;
     align-items: center;
  }
+ .brand-name {
+    display: flex;
+    margin-left: 10px;
+ }
 .all {
     display: flex;
     gap: 20px;
@@ -223,7 +227,6 @@ body {
     box-sizing: border-box;
     justify-content: space-between;
 }
-
 .photo1 {
     width: 150px;
     height: 140px;
@@ -305,4 +308,62 @@ body {
     align-items: center;
     padding: 5px 0px;
 }
+.columns {
+    display: flex;
+    flex-direction: column;
+}
+.photo2 {
+    width: 150px;
+    height: 140px;
+    margin: 0;
+    padding: 20px;
+}
+.photo3 {
+    width: 150px;
+    height: 140px;
+    margin: 0;
+    padding: 20px;
+}
+.bi-star-fill {
+    color: gold;
+}
+.bi-star-half {
+    color: gold;
+}
 
+
+
+.bottom-bar {
+   max-width: 1000px;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 5px;
+   margin-bottom: 100px;
+   margin-top: 10px;
+}
+.number-btn {
+    width: 42px;
+    height: 42px;
+    background: white;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.number-btn:hover {
+    background: #0d6efd;
+    color: white;
+    border-color: #0d6efd;
+}
+
+.fort-select {
+    width: 60px;
+    height: 30px;
+    border-color: #ccc;
+    border-radius: 5px;
+    font-size: 12px;
+    text-align: center;
+}
