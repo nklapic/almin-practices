@@ -73,9 +73,9 @@
 
 
 <div class="content all">
-    <div class="categories1">
-        <div>
-            <p class="title1"> Categories <i class="bi bi-chevron-up"></i></p>
+    <div class="main-filter">
+        <div class="filter-group">
+            <p class="filter-group-name"> Categories <i class="bi bi-chevron-up"></i></p>
             <div class="categories-input"><i class="bi bi-cpu"></i> Processors (CPUs) <span class="numbers">32</span>
             </div>
             <div class="categories-input"><i class="bi bi-motherboard"></i> Motherboards <span class="numbers">46</span>
@@ -92,47 +92,47 @@
             <div class="categories-input"><i class="bi bi-c-circle"></i> Cooling <span class="numbers">13</span></div>
             <p class="show-more">Show more</p>
         </div>
-
-        <div class="part2">
-            <p class="title1">Filters</p>
-            <p class="title1">Price<i class="bi bi-chevron-down"></i></p>
+        <div class="filter-group">
+            <p class="filter-group-name">Filters</p>
+            <p class="filter-group-name">Price<i class="bi bi-chevron-down"></i></p>
             <label for="range2" class="form-label"><span>$10</span> <span> $2,000+</span> </label>
             <div class="form-range">
                 <input type="range" class="form-range-input" min="10" max="2,000" id="range2">
             </div>
         </div>
-        <div class="part3">
-            <p class="title1">Brand <i class="bi bi-chevron-up"></i></p>
-            <div class="brand-item"><input id="compareCheckbox" type="checkbox"/><span class="brand-name">AMD</span><span class="numbers">(32)</span></div>
-            <div class="brand-item"><input id="compareCheckbox" type="checkbox"/><span class="brand-name">Intel</span><span class="numbers">(78)</span></div>
-            <div class="brand-item"><input id="compareCheckbox" type="checkbox"/><span class="brand-name">NVIDIA</span><span class="numbers">(28)</span></div>
-            <div class="brand-item"><input id="compareCheckbox" type="checkbox"/><span class="brand-name">ASUS</span><span class="numbers">(24)</span></div>
-            <div class="brand-item"><input id="compareCheckbox" type="checkbox"/><span class="brand-name">MSI</span><span class="numbers">(20)</span></div>
+        <div class="filter-group">
+            <p class="filter-group-name">Brand <i class="bi bi-chevron-up"></i></p>
+            <div class="brand-item"><input id="compareCheckbox" type="checkbox"/><span
+                    class="brand-name">AMD</span><span class="numbers">(32)</span></div>
+            <div class="brand-item"><input id="compareCheckbox" type="checkbox"/><span
+                    class="brand-name">Intel</span><span class="numbers">(78)</span></div>
+            <div class="brand-item"><input id="compareCheckbox" type="checkbox"/><span
+                    class="brand-name">NVIDIA</span><span class="numbers">(28)</span></div>
+            <div class="brand-item"><input id="compareCheckbox" type="checkbox"/><span
+                    class="brand-name">ASUS</span><span class="numbers">(24)</span></div>
+            <div class="brand-item"><input id="compareCheckbox" type="checkbox"/><span
+                    class="brand-name">MSI</span><span class="numbers">(20)</span></div>
             <p class="show-more">Show more</p>
         </div>
-        
-        <div>
-            <p class="title1">Rating<i class="bi bi-chevron-up"></i></p>
-                <div>        
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <span class="numbers">(120)</span>
-                </div>
-
-
+        <div class="filter-group">
+            <p class="filter-group-name">Rating<i class="bi bi-chevron-up"></i></p>
+            <div>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <span class="numbers">(120)</span>
+            </div>
         </div>
     </div>
 
- <div class="columns">
-    <div class="column2">
-        <div><img class="photo1" src="rzyen.jpg" alt="photo1"></div>
-         <div class="details">
-            <div class="column2-part1">
+    <div class="columns">
+        <div class="product-card">
+            <div><img class="product-image" src="rzyen.jpg" alt="photo1"></div>
+            <div class="product-details">
                 <div class="ryzen">AMD Ryzen 7 7800X3D</div>
-                <div class="descript">8-Core, 16-Thread Desktop Processor</div>
+                <div class="product-short-description">8-Core, 16-Thread Desktop Processor</div>
 
                 <div class="ryzen-infos">
                     <span class="label-button">8 cores</span>
@@ -151,26 +151,24 @@
                 </div>
                 <div class="stock"><span>AMD</span><i class="bi bi-dot"></i><span>In Stock</span></div>
             </div>
-        </div>
 
-        <div class="bag">
-            <div class="heart">$499.99 <i class="bi bi-heart"></i></div>
-            <div class="cartshop">
-                <button class="btn btn-primary"><i class="bi bi-cart"></i> <span>Add to Cart</span></button>
-            </div>
-            <div class="compare">
-                <input id="compareCheckbox" type="checkbox"/>
-                <label for="compareCheckbox">Compare</label>
+            <div class="bag">
+                <div class="heart">$499.99 <i class="bi bi-heart"></i></div>
+                <div class="cartshop">
+                    <button class="btn btn-primary"><i class="bi bi-cart"></i> <span>Add to Cart</span></button>
+                </div>
+                <div class="compare">
+                    <input id="compareCheckbox" type="checkbox"/>
+                    <label for="compareCheckbox">Compare</label>
+                </div>
             </div>
         </div>
-    </div>
+        <div class="product-card">
+            <div><img class="product-image" src="asus.png" alt="photo1"></div>
 
-  <div class="column2">
-        <div><img class="photo2" src="asus.png" alt="photo1"></div>
-         <div class="details">
-            <div class="column2-part1">
+            <div class="product-details">
                 <div class="ryzen">ASUS TUF Gaming GeForce RTX 4070 Ti SUPER</div>
-                <div class="descript">16GB GDDR6X</div>
+                <div class="product-short-description">16GB GDDR6X</div>
 
                 <div class="ryzen-infos">
                     <span class="label-button">16GB</span>
@@ -189,26 +187,23 @@
                 </div>
                 <div class="stock"><span>AMD</span><i class="bi bi-dot"></i><span>In Stock</span></div>
             </div>
-        </div>
 
-        <div class="bag">
-            <div class="heart">$799.99 <i class="bi bi-heart"></i></div>
-            <div class="cartshop">
-                <button class="btn btn-primary"><i class="bi bi-cart"></i> <span>Add to Cart</span></button>
-            </div>
-            <div class="compare">
-                <input id="compareCheckbox" type="checkbox"/>
-                <label for="compareCheckbox">Compare</label>
+            <div class="bag">
+                <div class="heart">$799.99 <i class="bi bi-heart"></i></div>
+                <div class="cartshop">
+                    <button class="btn btn-primary"><i class="bi bi-cart"></i> <span>Add to Cart</span></button>
+                </div>
+                <div class="compare">
+                    <input id="compareCheckbox" type="checkbox"/>
+                    <label for="compareCheckbox">Compare</label>
+                </div>
             </div>
         </div>
-    </div>
-        
-    <div class="column2">
-        <div><img class="photo3" src="mag-b650-tomahawk-wifi.png" alt="photo1"></div>
-         <div class="details">
-            <div class="column2-part1">
+        <div class="product-card">
+            <div><img class="product-image" src="mag-b650-tomahawk-wifi.png" alt="photo1"></div>
+            <div class="product-details">
                 <div class="ryzen">MSI MAG B650 Tomahawk WiFi</div>
-                <div class="descript">AMD B650 ATX Motherboard</div>
+                <div class="product-short-description">AMD B650 ATX Motherboard</div>
 
                 <div class="ryzen-infos">
                     <span class="label-button">AM5</span>
@@ -227,28 +222,23 @@
                 </div>
                 <div class="stock"><span>AMD</span><i class="bi bi-dot"></i><span>In Stock</span></div>
             </div>
-        </div>
 
-        <div class="bag">
-            <div class="heart">$179.99 <i class="bi bi-heart"></i></div>
-            <div class="cartshop">
-                <button class="btn btn-primary"><i class="bi bi-cart"></i> <span>Add to Cart</span></button>
+            <div class="bag">
+                <div class="heart">$179.99 <i class="bi bi-heart"></i></div>
+                <div class="cartshop">
+                    <button class="btn btn-primary"><i class="bi bi-cart"></i> <span>Add to Cart</span></button>
+                </div>
+                <div class="compare">
+                    <input id="compareCheckbox" type="checkbox"/>
+                    <label for="compareCheckbox">Compare</label>
+                </div>
             </div>
-            <div class="compare">
-                <input id="compareCheckbox" type="checkbox"/>
-                <label for="compareCheckbox">Compare</label>
-            </div>
         </div>
-    </div>
-
-
-
-    <div class="column2">
-        <div><img class="photo3" src="corsaire.avif" alt="photo1"></div>
-         <div class="details">
-            <div class="column2-part1">
+        <div class="product-card">
+            <div><img class="product-image" src="corsaire.avif" alt="photo1"></div>
+            <div class="product-details">
                 <div class="ryzen">Corsair Vengeance RGB 32GB (2x16GB)</div>
-                <div class="descript">DDR5 6000MHz CL30</div>
+                <div class="product-short-description">DDR5 6000MHz CL30</div>
 
                 <div class="ryzen-infos">
                     <span class="label-button">32GB (2x16GB)</span>
@@ -267,26 +257,23 @@
                 </div>
                 <div class="stock"><span>AMD</span><i class="bi bi-dot"></i><span>In Stock</span></div>
             </div>
-        </div>
 
-        <div class="bag">
-            <div class="heart">$119.99 <i class="bi bi-heart"></i></div>
-            <div class="cartshop">
-                <button class="btn btn-primary"><i class="bi bi-cart"></i> <span>Add to Cart</span></button>
-            </div>
-            <div class="compare">
-                <input id="compareCheckbox" type="checkbox"/>
-                <label for="compareCheckbox">Compare</label>
+            <div class="bag">
+                <div class="heart">$119.99 <i class="bi bi-heart"></i></div>
+                <div class="cartshop">
+                    <button class="btn btn-primary"><i class="bi bi-cart"></i> <span>Add to Cart</span></button>
+                </div>
+                <div class="compare">
+                    <input id="compareCheckbox" type="checkbox"/>
+                    <label for="compareCheckbox">Compare</label>
+                </div>
             </div>
         </div>
-    </div>
-
-        <div class="column2">
-        <div><img class="photo3" src="samsung.webp" alt="photo1"></div>
-         <div class="details">
-            <div class="column2-part1">
+        <div class="product-card">
+            <div><img class="product-image" src="samsung.webp" alt="photo1"></div>
+            <div class="product-details">
                 <div class="ryzen">Samsung 990 PRO 2TB</div>
-                <div class="descript">PCIe 4.0 NVMe M.2 SSD</div>
+                <div class="product-short-description">PCIe 4.0 NVMe M.2 SSD</div>
 
                 <div class="ryzen-infos">
                     <span class="label-button">2TB</span>
@@ -305,21 +292,20 @@
                 </div>
                 <div class="stock"><span>AMD</span><i class="bi bi-dot"></i><span>In Stock</span></div>
             </div>
+
+            <div class="bag">
+                <div class="heart">$159.99 <i class="bi bi-heart"></i></div>
+                <div class="cartshop">
+                    <button class="btn btn-primary"><i class="bi bi-cart"></i> <span>Add to Cart</span></button>
+                </div>
+                <div class="compare">
+                    <input id="compareCheckbox" type="checkbox"/>
+                    <label for="compareCheckbox">Compare</label>
+                </div>
+            </div>
         </div>
 
-        <div class="bag">
-            <div class="heart">$159.99 <i class="bi bi-heart"></i></div>
-            <div class="cartshop">
-                <button class="btn btn-primary"><i class="bi bi-cart"></i> <span>Add to Cart</span></button>
-            </div>
-            <div class="compare">
-                <input id="compareCheckbox" type="checkbox"/>
-                <label for="compareCheckbox">Compare</label>
-            </div>
-        </div>
     </div>
-        
- </div>
 </div>
 
 </div>
@@ -335,10 +321,10 @@
     <span>Show</span>
 
     <select class="fort-select"
-        <option selected>Izaberi</option>
-        <option value="2">12</option>
-        <option value="1">24</option>
-        <option value="2">36</option>
+    <option selected>Select</option>
+    <option value="2">12</option>
+    <option value="1">24</option>
+    <option value="2">36</option>
     </select>
     <span>per page</span>
 </div>
