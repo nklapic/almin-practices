@@ -315,22 +315,38 @@ body {
 
 .bottom-bar {
    max-width: 1000px;
-   margin: 0 auto;
    display: flex;
    align-items: center;
    justify-content: center;
-   gap: 5px;
+   gap: 10px;
    margin-bottom: 100px;
    margin-top: 10px;
+   margin-left: 215px;
 }
 .number-btn {
     width: 42px;
-    height: 42px;
+    height: 35px;
     background: white;
     color: black;
     border: 1px solid #ccc;
     border-radius: 5px;
     cursor: pointer;
+}
+.clear-button {
+    width: 270px;
+    height: 35px;
+    background: white;
+    color: black bold;
+    border: 1px solid #989696;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    margin-top: 10px;
+}
+.clear-button:hover {
+    background: #0d6efd;
+    color: white;
+    border-color: #0d6efd;
 }
 
 .number-btn:hover {
@@ -346,4 +362,9 @@ body {
     border-radius: 5px;
     font-size: 12px;
     text-align: center;
+}
+.bi-star {
+    border: none;
+    color: #cccccc87;
+    border: none; 
 }
